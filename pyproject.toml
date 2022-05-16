@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "reco"
+version = "0.0.0"
+description = ""
+authors = ["Silvia <a-silvia@varita.mailer.me>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+scipy = "^1.8.0"
+pandas = "^1.4.2"
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+jupyterlab = "^3.4.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
